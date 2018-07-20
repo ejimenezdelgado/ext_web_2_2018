@@ -25,11 +25,11 @@ tiendas.push(tienda);
 tiendas.push(tienda2);
 
 console.log(tiendas[1].nombre);
-console.log(tienda.calcular(20, 32));
-console.log(tienda.saludar());
+console.log(tiendas[1].calcular(20, 32));
+console.log(tiendas[1].saludar());
 
-var btnSaludar = document.getElementById("btnSaludar");
+var btnSaludar = document.getElementById("boton");
 
 btnSaludar.addEventListener('click', function () {
-    console.log(tienda.saludar());
+    console.log(tiendas[1].saludar());
 });

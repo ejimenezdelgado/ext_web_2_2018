@@ -12,5 +12,4 @@ function Saludar() {
 	console.log(datos);
 	console.log(datos.resultado);
 }
-
 Saludar()
