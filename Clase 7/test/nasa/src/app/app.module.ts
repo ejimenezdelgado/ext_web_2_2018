@@ -15,7 +15,7 @@ import { MaterialDemoComponent } from "./material-demo/material-demo.component";
 
 @NgModule({
   declarations: [AppComponent, BotonUtnComponent],
-  imports: [BrowserModule, BrowserAnimationsModule],
+  imports: [BrowserModule, BrowserAnimationsModule, MaterialModule],
   providers: [],
   bootstrap: [AppComponent]
 })

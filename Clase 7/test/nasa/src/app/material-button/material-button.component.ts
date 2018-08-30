@@ -19,6 +19,6 @@ export class MaterialButtonComponent implements OnInit {
   }
 
   onClick($event) {
-    console.log("Evento Click", $event);
+    alert("Evento Click Deje de joder coco");
   }
 }

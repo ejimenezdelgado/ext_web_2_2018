@@ -20,7 +20,7 @@ export class MaterialInputComponent implements OnInit {
     setTimeout(() => {
       this.usuario.nombre = "Juan";
       this.placeholder.nombre = "Apellido";
-    }, 2000);
+    }, 5000);
   }
 
   onKeyUp($event) {

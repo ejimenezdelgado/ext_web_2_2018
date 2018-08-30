@@ -42,7 +42,9 @@ import { ItemEstudianteComponent } from "../material-list/item-estudiante/item-e
     MatListModule,
     MatCardModule,
     MatProgressSpinnerModule,
-    MatSelectModule
+    MatSelectModule,
+    MaterialButtonComponent,
+    MaterialDemoComponent
   ],
   declarations: [
     MaterialDemoComponent,
